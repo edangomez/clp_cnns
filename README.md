@@ -11,6 +11,8 @@ Convolutional neural networks revolutionized computer vision and allowed the inc
  - [3.1. Dataset](#31-dataset)
  - [3.2. Model](#32-model)
  - [3.3. Training Pipeline](#33-training-pipeline)
+ - [3.4. Test file](#33-test-file)
+ - [3.3. Demo file](#33-demo-file)
 - [4. Deliverables](#4-deliverables)
 
 
@@ -63,6 +65,13 @@ In this phase you will implement your custom convolutional model from scratch. T
 
 The train.py module contains the structure required to implement a proper training pipeline in PyTorch for this task. Complete the TODOs in this module, modify the hyperparameters and select the proper loss and optimizer setups to be able to train your network and achieve good performance. Take into account that this module uses hydra to provide a hierarchical configuration by composition to the module so use the config files provided in this repo to achieve your goal.
 
+### 3.4 Test file
+
+Create a test file that loads the weights of the model and save/loads the appropiate metrics of you trained model
+
+### 3.5 Demo file
+
+Inclure in your workshop a demo file that will allow to perform inference, returns the class of a test image and allows the further deployment of the model.
 
 ## 4. Deliverables
 
@@ -70,6 +79,7 @@ The train.py module contains the structure required to implement a proper traini
 - datasets.Dataloader module complete
 - models.cnn module complete with your own custom ConvNet implementation
 - train.py module complete
+- test.py for metrics assessment
 - demo of you neural network for further usage
 
 
