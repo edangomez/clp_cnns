@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "clp1-cv-lp"
+version = "0.1.0"
+description = "Package required for the first project in the computer vision learning path"
+authors = ["Daniel Gómez <daniel.gomez@factored.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.1.2"
+torchvision = "^0.16.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
